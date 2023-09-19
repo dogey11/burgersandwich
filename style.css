@@ -1,0 +1,69 @@
+body {
+    text-align:center;
+    background-color: black;
+}
+
+canvas {
+    border:7px dashed #57A639
+}
+
+h1 {
+    font-size:35px;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 25px;
+    text-decoration: underline;
+    font-family: Geneva;
+    color: #0520A5;
+}
+
+img {
+    width: 200px;
+    height: 150px;
+    padding: 50px;
+}
+
+.float {
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0;
+    font-style: italic;
+    font-size:1em;
+    font-weight:bold; 
+    color: #F8C8DC;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+    
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }    
+}
+
+.rainbow {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 24px;
+    font-family: monospace;
+    letter-spacing: 5px;
+}
+
+.rainbow_text_animated {
+    background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 9s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
