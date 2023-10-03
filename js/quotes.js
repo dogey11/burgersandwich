@@ -23,8 +23,10 @@ var quotes = [
     "\"The Matrix wants you to lose hope.\"",
     "\"You want to stop playing 'Fortnite,' man, because you aren't having fun anymore?\"",
     "\"I don't know how Jesus does it... I mean I freak out when I have to wait 9 seconds to respawn, Jesus respawn took 3 whole days... RETWEET!\"",
-    "\"Hello everybody my name is Markiplier.\"",
-    "\"Elmo loves to learn, learn about it all. The things that are big and the things that are small!\""
+    "\"Hello everybody, my name is Markiplier.\"",
+    "\"Elmo loves to learn, learn about it all. The things that are big and the things that are small!\"",
+    "\"Is waldorff still doing the ball drop this year?\"",
+    "\"Oh my god, it even has a watermark.\""
 ]
 
 var quote_elem = document.getElementById("tate_quote");
